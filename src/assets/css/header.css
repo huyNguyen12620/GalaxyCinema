@@ -1,0 +1,18 @@
+
+
+.galaxy-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.login{
+    display: flex;
+    font-size: 12px;
+    
+}
+
+.login .login-language{
+    margin-left: 10px;
+}
+
