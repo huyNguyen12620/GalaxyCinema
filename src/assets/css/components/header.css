@@ -6,13 +6,26 @@
     padding-top: 20px;
 }
 
+.galaxy-title{
+    text-decoration: none;
+    color: black;
+}
+
 .login{
     display: flex;
     font-size: 12px;
-    
+}
+
+
+
+.login .login-btn{
+    text-decoration: none;
+    color: black;
+
 }
 
 .login .login-language{
     margin-left: 10px;
+    color: black;
 }
 

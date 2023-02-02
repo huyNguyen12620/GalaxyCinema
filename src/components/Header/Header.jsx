@@ -8,7 +8,7 @@ export default function header() {
 
      <div className='galaxy-header'>
         <div className="galaxy-header-item">
-              <h1>GalxyCinema</h1>
+              <h1 ><NavLink to="#" className={'galaxy-title'}>GalxyCinema</NavLink></h1>
         </div>
 
         <div className="galaxy-header-item">

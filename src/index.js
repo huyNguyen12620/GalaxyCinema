@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import './index.css';
 import '../src/assets/css/style.css'
+
 import App from './App';
 
 // Cấu hình react-router-dom
