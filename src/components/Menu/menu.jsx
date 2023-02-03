@@ -11,10 +11,138 @@ export default function Menu() {
             <li>
               <div class="dropdown">
                 <div class="drop">Phim</div>
-                <div class="dropdown-content">
-                  <NavLink to={''}>Link 1</NavLink>
-                  <NavLink to={''}>Link 2</NavLink>
-                  <NavLink to={''}>Link 3</NavLink>
+                <div class="dropdown-content ">
+                  <div className="dropdown-movies1">
+                    
+                  <div className="dropdown-title">
+                  <p>Phim đang chiếu</p>
+                  </div>
+                  <div className="row">
+                    <div className="col-3 ">
+                      <div className="item-dropdown">
+                      <div className="dropdown-movies-img">
+                        <img src="https://picsum.photos/200/200" alt="..." />
+                        <p>Nhà bà nữ</p>
+                      </div>
+                      <div className="dropdown-movies-overlay"> 
+                        <div className="btn-overlay">
+                          <button>Mua vé</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="col-3 ">
+                      <div className="item-dropdown">
+                      <div className="dropdown-movies-img">
+                        <img src="https://picsum.photos/200/200" alt="..." />
+                        <p>Chị chị em em 2</p>
+                      </div>
+                      <div className="dropdown-movies-overlay"> 
+                        <div className="btn-overlay">
+                          <button>Mua vé</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="col-3 ">
+                      <div className="item-dropdown">
+                      <div className="dropdown-movies-img">
+                        <img src="https://picsum.photos/200/200" alt="..." />
+                        <p>Vong nhi</p>
+                      </div>
+                      <div className="dropdown-movies-overlay"> 
+                        <div className="btn-overlay">
+                          <button>Mua vé</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="col-3 ">
+                      <div className="item-dropdown">
+                      <div className="dropdown-movies-img">
+                        <img src="https://picsum.photos/200/200" alt="..." />
+                        <p>KNOCK AT THE CABIN</p>
+                      </div>
+                      <div className="dropdown-movies-overlay"> 
+                        <div className="btn-overlay">
+                          <button>Mua vé</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  </div>
+
+                 
+                 <div className="dropdown-movies2">
+                 <div className="dropdown-title">
+                  <p>Phim sắp chiếu</p>
+                  </div>
+                  <div className="row">
+                  <div className="col-3 ">
+                      <div className="item-dropdown">
+                      <div className="dropdown-movies-img">
+                        <img src="https://picsum.photos/200/200" alt="..." />
+                        <p>Titanic</p>
+                      </div>
+                      <div className="dropdown-movies-overlay"> 
+                        <div className="btn-overlay">
+                          <button>Mua vé</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="col-3 ">
+                      <div className="item-dropdown">
+                      <div className="dropdown-movies-img">
+                        <img src="https://picsum.photos/200/200" alt="..." />
+                        <p>Ditto</p>
+                      </div>
+                      <div className="dropdown-movies-overlay"> 
+                        <div className="btn-overlay">
+                          <button>Mua vé</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="col-3 ">
+                      <div className="item-dropdown">
+                      <div className="dropdown-movies-img">
+                        <img src="https://picsum.photos/200/200" alt="..." />
+                        <p>TO EVERY YOU I'VE LOVED BEFORE</p>
+                      </div>
+                      <div className="dropdown-movies-overlay"> 
+                        <div className="btn-overlay">
+                          <button>Mua vé</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="col-3 ">
+                      <div className="item-dropdown">
+                      <div className="dropdown-movies-img">
+                        <img src="https://picsum.photos/200/200" alt="..." />
+                        <p>TO ME, THE ONE WHO LOVED YOU</p>
+                      </div>
+                      <div className="dropdown-movies-overlay"> 
+                        <div className="btn-overlay">
+                          <button btn btn-danger>Mua vé</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                 </div>
+
+
+
                 </div>
               </div>
             </li>

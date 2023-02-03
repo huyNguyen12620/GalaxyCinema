@@ -449,6 +449,78 @@ export default function MenuFilm() {
           </div>
         </div>
       </div>
+
+              <div className="promotion">
+                  <div className="row">
+                    <div className="col-3">
+                        <div className="promotion-item">
+                          <div className="promotion-item-img">
+                          <img src="https://picsum.photos/200/200" alt="" />
+                          </div>
+                          <div className="promotion-item-overlay">
+                            <h2>Chào 2023 đón mưa quà</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.'</p>
+                          </div>
+                          <div className="promotion-btn-detail">
+                            <button>Chi tiết</button>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div className="col-3">
+                    <div className="promotion-item-img">
+                          <img src="https://picsum.photos/200/200" alt="" />
+                          </div>
+                          <div className="promotion-item-overlay">
+                            <h2>Chào 2023 đón mưa quà</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.'</p>
+                          </div>
+                          <div className="promotion-btn-detail">
+                            <button>Chi tiết</button>
+                          </div>
+                    </div>
+
+                    <div className="col-3">
+                    <div className="promotion-item-img">
+                          <img src="https://picsum.photos/200/200" alt="" />
+                          </div>
+                          <div className="promotion-item-overlay">
+                            <h2>Chào 2023 đón mưa quà</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.'</p>
+                          </div>
+                          <div className="promotion-btn-detail">
+                            <button>Chi tiết</button>
+                          </div>
+                    </div>
+
+                    <div className="col-3">
+                    <div className="promotion-item-img">
+                          <img src="https://picsum.photos/200/200" alt="" />
+                          </div>
+                          <div className="promotion-item-overlay">
+                            <h2>Chào 2023 đón mưa quà</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.'</p>
+                          </div>
+                          <div className="promotion-btn-detail">
+                            <button>Chi tiết</button>
+                          </div>
+                    </div>
+                  </div>
+
+                  <div className="col-3">
+                  <div className="promotion-item-img">
+                          <img src="https://picsum.photos/200/200" alt="" />
+                          </div>
+                          <div className="promotion-item-overlay">
+                            <h2>Chào 2023 đón mưa quà</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.'</p>
+                          </div>
+                          <div className="promotion-btn-detail">
+                            <button>Chi tiết</button>
+                          </div>
+                    </div>
+              </div>
+
     </div>
   );
 }

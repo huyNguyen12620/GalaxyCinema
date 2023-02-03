@@ -21,11 +21,18 @@
     font-size: 15px;
     font-weight: 500;
     color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
 .menu-list a{
     color: white;
+    transition: all 0.5s;
+}
+
+.menu-list :hover{
+  color:#f26b38 ;
+  transition: all 0.5s;
 }
 
   
@@ -43,8 +50,109 @@
     background-color: #000;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 3;
+    padding-top: 10px;
+    
   }
+
+  
+
+  .dropdown-content .dropdown-movies1{
+    width: 1000px;
+  }
+
+  .dropdown-title p{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+   padding-top: 30px;
+  }
+  
+
+
+
+  .dropdown-movies1 .dropdown-movies-img img{
+    width: 100%;
+    height: 120px;
+    
+  }
+  .item-dropdown{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+
+  .dropdown-movies-img p{
+    color: #ffff;
+    text-align: left;
+    text-transform: uppercase;
+   padding-top: 10px;
+  }
+
+  .dropdown-movies1 .dropdown-movies-overlay{
+    background-color: rgba(60, 60, 60,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 88%;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .dropdown-movies-overlay:hover{
+    opacity: 1;
+    transition: all 0.5s;
+
+  }
+
+  .dropdown-movies-overlay .btn-overlay button{
+      background: none;
+      margin-top: 50px;
+     border: solid 2px #ffff;
+     width: 80px;
+     height: 30px;
+     color: white;
+      
+  }
+
+  .btn-overlay button:hover{
+    background-color: #f26b38;
+    border: none;
+  }
+
+  .dropdown-content .dropdown-movies2{
+    width: 1000px;
+    /* height: 210px; */
+  }
+
+
+  .dropdown-movies2 .dropdown-movies-img img{
+    width: 100%;
+    height: 120px;
+    /* margin-bottom: 10px; */
+  }
+
+  .dropdown-movies2 .dropdown-movies-overlay{
+    background-color: rgba(60, 60, 60,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    height: 74%;
+  }
+
+  .dropdown-movies2 .dropdown-movies-overlay:hover{
+    opacity: 1;
+  }
+
+
+
+
   
   .dropdown-content a {
     color: white;
@@ -59,6 +167,6 @@
 
   .dropdown:hover .dropdown-content {
     display: block;
-    margin-top: 10px;;
+    /* margin-top: 5px; */
 }
   
