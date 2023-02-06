@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Carousel_Home() {
   return (
-    <>
+    <div className="carousel-main">
       <div
         id="carouselExampleIndicators"
         className="carousel slide"
@@ -145,10 +145,11 @@ export default function Carousel_Home() {
       </div>
 
       <div className="quick-buy-ticket">
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <h3>Mua vé nhanh</h3>
+        <ul class="nav mb-3" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
             <button
-              class="nav-link "
+              class=" title-btn"
               id="pills-home-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-home"
@@ -159,11 +160,10 @@ export default function Carousel_Home() {
             >
               Theo phim
             </button>
-           
           </li>
           <li class="nav-item" role="presentation">
             <button
-              class="nav-link"
+              class=" title-btn"
               id="pills-profile-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-profile"
@@ -172,12 +172,12 @@ export default function Carousel_Home() {
               aria-controls="pills-profile"
               aria-selected="false"
             >
-              Profile
+              Theo ngày
             </button>
           </li>
           <li class="nav-item" role="presentation">
             <button
-              class="nav-link"
+              class=" title-btn"
               id="pills-contact-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-contact"
@@ -186,7 +186,7 @@ export default function Carousel_Home() {
               aria-controls="pills-contact"
               aria-selected="false"
             >
-              Contact
+              Theo rạp
             </button>
           </li>
         </ul>
@@ -197,47 +197,57 @@ export default function Carousel_Home() {
             role="tabpanel"
             aria-labelledby="pills-home-tab"
           >
-          <div className="select-ticket">
-<div className="select-all">
-  <ul>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-  </ul>
-</div>
-  <button className="btn-buy-ticket">
-    Mua vé
-  </button>
-</div>
+            <div className="select-ticket">
+              <div className="select-all">
+                <ul>
+                  <li>
+                    <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                </ul>
+              </div>
+              <button className="btn-buy-ticket">Mua vé</button>
+            </div>
           </div>
           <div
             class="tab-pane fade"
@@ -246,46 +256,56 @@ export default function Carousel_Home() {
             aria-labelledby="pills-profile-tab"
           >
             <div className="select-ticket">
-<div className="select-all">
-  <ul>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-  </ul>
-</div>
-  <button className="btn-buy-ticket">
-    Mua vé
-  </button>
-</div>
+              <div className="select-all">
+                <ul>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                </ul>
+              </div>
+              <button className="btn-buy-ticket">Mua vé</button>
+            </div>
           </div>
           <div
             class="tab-pane fade"
@@ -294,49 +314,59 @@ export default function Carousel_Home() {
             aria-labelledby="pills-contact-tab"
           >
             <div className="select-ticket">
-<div className="select-all">
-  <ul>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-    <li>
-      <select name="" id="">
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-        <option value="">Chọn phim</option>
-      </select>
-    </li>
-  </ul>
-</div>
-  <button className="btn-buy-ticket">
-    Mua vé
-  </button>
-</div>
+              <div className="select-all">
+                <ul>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn phim</option>
+                      <option value="1">Nhà bà nữ</option>
+                      <option value="2">Vong linh</option>
+                      <option value="3">Avatar</option>
+                    </select>
+                  </li>
+                </ul>
+              </div>
+              <button className="btn-buy-ticket">Mua vé</button>
+            </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
