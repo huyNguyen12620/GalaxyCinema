@@ -150,9 +150,12 @@ export default function Menu() {
               <div class="dropdown">
                 <div class="drop">Góc điện ảnh</div>
                 <div class="dropdown-content">
-                  <NavLink to={''}>Link 1</NavLink>
-                  <NavLink to={''}>Link 2</NavLink>
-                  <NavLink to={''}>Link 3</NavLink>
+                  <NavLink to={''}>Thể loại phim</NavLink>
+                  <NavLink to={''}>Diễn viên</NavLink>
+                  <NavLink to={''}>Đạo diễn</NavLink>
+                  <NavLink to={''}>Bình luận phim</NavLink>
+                  <NavLink to={''}>Blog điện ảnh</NavLink>
+
                 </div>
               </div>
             </li>
@@ -160,9 +163,9 @@ export default function Menu() {
               <div class="dropdown">
                 <div class="drop">Sự kiện</div>
                 <div class="dropdown-content">
-                  <NavLink to={''}>Link 1</NavLink>
-                  <NavLink to={''}>Link 2</NavLink>
-                  <NavLink to={''}>Link 3</NavLink>
+                  <NavLink to={''}>Ưu đãi</NavLink>
+                  <NavLink to={''}>Phim hay tháng</NavLink>
+                
                 </div>
               </div>
             </li>

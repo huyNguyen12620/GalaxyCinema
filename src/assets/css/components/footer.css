@@ -1,3 +1,99 @@
 li{
     color: red;
 }
+
+.footer-cinema{
+    margin-top: 120px;
+    background-color: #000;
+    height: 18rem;
+}
+.list-contact{
+    margin-top: 50px;
+}
+
+.list-contact h2{
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.list-contact li{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.list-contact li a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+    transition: all 0.5s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.list-contact li a:hover{
+    color: #f26b38;
+    transition: all 0.5s;
+   
+}
+
+.list-contact .fa-square-facebook{
+    font-size: 26px;
+    margin-right: 20px;
+    color: #a0a3a7;
+    transition: all 0.5s;
+
+}
+
+.list-contact .fa-square-facebook:hover{
+    color: #139df8;
+    transition: all 0.5s;
+
+}
+
+.list-contact .fa-youtube{
+    font-size: 26px;
+    margin-right: 20px;
+    color: #a0a3a7;
+    transition: all 0.5s;
+}
+
+.list-contact .fa-youtube:hover{
+    transition: all 0.5s;
+    color: #ff0000;
+
+}
+
+.list-contact .fa-instagram{
+    font-size: 26px;
+    margin-right: 20px;
+    color: #a0a3a7;
+    transition: all 0.5s;
+}
+
+.list-contact .fa-instagram:hover{
+    transition: all 0.5s;
+    color: #F2CD5C;
+}
+
+.list-contact .fa-apple{
+    font-size: 26px;
+    margin-right: 20px;
+    color: #a0a3a7;
+    transition: all 0.5s;
+}
+.list-contact .fa-apple:hover{
+    transition: all 0.5s;
+    color: #f26b38;
+}
+
+.list-contact .fa-google-play{
+    font-size: 26px;
+    margin-right: 20px;
+    color: #a0a3a7;
+    transition: all 0.5s;
+}
+
+.list-contact .fa-google-play:hover{
+    transition: all 0.5s;
+    color: #f26b38;
+}
