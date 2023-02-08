@@ -2,38 +2,38 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="container">
+   <div className="about">
+     <div className="container">
       <h2>Galaxy Cinema</h2>
       <p>
-        Galaxy Cinema là một trong những công ty tư nhân đầu tiên về điện ảnh
+        <b>Galaxy Cinema</b> là một trong những công ty tư nhân đầu tiên về điện ảnh
         được thành lập từ năm 2003, đã khẳng định thương hiệu là 1 trong 10 địa
         điểm vui chơi giải trí được yêu thích nhất. Ngoài hệ thống rạp chiếu
         phim hiện đại, thu hút hàng triệu lượt người đến xem, Galaxy Cinema còn
         hấp dẫn khán giả bởi không khí thân thiện cũng như chất lượng dịch vụ
-        hàng đầu. Xem thêm tại: https://www.galaxycine.vn/
+        hàng đầu
       </p>
       <p>
         Đến website galaxycine.vn, khách hàng sẽ dễ dàng tham khảo các phim hay
         nhất, phim mới nhất đang chiếu hoặc sắp chiếu luôn được cập nhật thường
-        xuyên. Lịch chiếu tại tất cả hệ thống rạp chiếu phim của Galaxy Cinema
-        cũng được cập nhật đầy đủ hàng ngày hàng giờ trên trang chủ. Xem thêm
-        tại: https://www.galaxycine.vn/
+        xuyên. Lịch chiếu tại tất cả hệ thống rạp chiếu phim của <b>Galaxy Cinema </b> 
+           cũng được cập nhật đầy đủ hàng ngày hàng giờ trên trang chủ.
       </p>
 
       <p>
-        Giờ đây đặt vé tại Galaxy Cinema càng thêm dễ dàng chỉ với vài thao tác
+        Giờ đây đặt vé tại <b>Galaxy Cinema</b> càng thêm dễ dàng chỉ với vài thao tác
         vô cùng đơn giản. Để mua vé, hãy vào tab Mua vé. Quý khách có thể chọn
         Mua vé theo phim, theo rạp, hoặc theo ngày. Sau đó, tiến hành mua vé
         theo các bước hướng dẫn. Chỉ trong vài phút, quý khách sẽ nhận được tin
-        nhắn và email phản hồi Đặt vé thành công của Galaxy Cinema. Quý khách có
-        thể dùng tin nhắn lấy vé tại quầy vé của Galaxy Cinema hoặc quét mã QR
+        nhắn và email phản hồi Đặt vé thành công của <b>Galaxy Cinema</b>. Quý khách có
+        thể dùng tin nhắn lấy vé tại quầy vé của <b>Galaxy Cinema</b> hoặc quét mã QR
         để một bước vào rạp mà không cần tốn thêm bất kỳ công đoạn nào nữa.
       </p>
 
       <p>
         Nếu bạn đã chọn được phim hay để xem, hãy đặt vé cực nhanh bằng box Mua
         Vé Nhanh ngay từ Trang Chủ. Chỉ cần một phút, tin nhắn và email phản hồi
-        của Galaxy Cinema sẽ gửi ngay vào điện thoại và hộp mail của bạn.
+        của <b>Galaxy Cinema</b> sẽ gửi ngay vào điện thoại và hộp mail của bạn.
       </p>
       <p>
         Nếu chưa quyết định sẽ xem phim mới nào, hãy tham khảo các bộ phim hay
@@ -45,7 +45,7 @@ export default function About() {
       </p>
 
       <p>
-        Galaxy Cinema luôn có những chương trình khuyến mãi, ưu đãi, quà tặng vô
+        <b>Galaxy Cinema</b> luôn có những chương trình khuyến mãi, ưu đãi, quà tặng vô
         cùng hấp dẫn như giảm giá vé, tặng vé xem phim miễn phí, tặng Combo,
         tặng quà phim… dành cho các khách hàng.
       </p>
@@ -60,10 +60,11 @@ export default function About() {
       </p>
 
       <p>
-        Hiện nay, Galaxy Cinema đang ngày càng phát triển hơn nữa với các chương
+        Hiện nay, <b>Galaxy Cinema</b> đang ngày càng phát triển hơn nữa với các chương
         trình đặc sắc, các khuyến mãi hấp dẫn, đem đến cho khán giả những bộ
         phim bom tấn của thế giới và Việt Nam nhanh chóng và sớm nhất.
       </p>
     </div>
+   </div>
   );
 }

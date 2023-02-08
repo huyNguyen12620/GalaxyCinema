@@ -216,10 +216,10 @@ export default function Carousel_Home() {
                       class="form-select form-select-sm"
                       aria-label=".form-select-sm example"
                     >
-                      <option selected>Chọn phim</option>
-                      <option value="1">Nhà bà nữ</option>
-                      <option value="2">Vong linh</option>
-                      <option value="3">Avatar</option>
+                      <option selected>Chọn rạp</option>
+                      <option value="1">Galaxy Nguyễn Du</option>
+                      <option value="2">Galaxy Kinh Dương Vương</option>
+                      <option value="3">Galaxy Tân Bình</option>
                     </select>
                   </li>
                   <li>
@@ -227,10 +227,10 @@ export default function Carousel_Home() {
                       class="form-select form-select-sm"
                       aria-label=".form-select-sm example"
                     >
-                      <option selected>Chọn phim</option>
-                      <option value="1">Nhà bà nữ</option>
-                      <option value="2">Vong linh</option>
-                      <option value="3">Avatar</option>
+                      <option selected>Chọn ngày</option>
+                      <option value="1">02/02/2023</option>
+                      <option value="2">03/02/2023</option>
+                      <option value="3">04/02/2023</option>
                     </select>
                   </li>
                   <li>
@@ -238,10 +238,10 @@ export default function Carousel_Home() {
                       class="form-select form-select-sm"
                       aria-label=".form-select-sm example"
                     >
-                      <option selected>Chọn phim</option>
-                      <option value="1">Nhà bà nữ</option>
-                      <option value="2">Vong linh</option>
-                      <option value="3">Avatar</option>
+                      <option selected>Chọn suất</option>
+                      <option value="1">09:15,2D - Phụ đề</option>
+                      <option value="2">09:15,2D - Phụ đề</option>
+                      <option value="3">09:15,2D - Phụ đề</option>
                     </select>
                   </li>
                 </ul>
@@ -263,10 +263,21 @@ export default function Carousel_Home() {
                       class="form-select form-select-sm"
                       aria-label=".form-select-sm example"
                     >
-                      <option selected>Chọn phim</option>
-                      <option value="1">Nhà bà nữ</option>
-                      <option value="2">Vong linh</option>
-                      <option value="3">Avatar</option>
+                      <option selected>Chọn ngày</option>
+                      <option value="1">02/02/2023</option>
+                      <option value="2">02/02/2023</option>
+                      <option value="3">02/02/2023</option>
+                    </select>
+                  </li>
+                  <li>
+                  <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option selected>Chọn rạp</option>
+                      <option value="1">Galaxy Nguyễn Du</option>
+                      <option value="2">Galaxy Nguyễn Du</option>
+                      <option value="3">Galaxy Nguyễn Du</option>
                     </select>
                   </li>
                   <li>
@@ -285,21 +296,11 @@ export default function Carousel_Home() {
                       class="form-select form-select-sm"
                       aria-label=".form-select-sm example"
                     >
-                      <option selected>Chọn phim</option>
-                      <option value="1">Nhà bà nữ</option>
-                      <option value="2">Vong linh</option>
-                      <option value="3">Avatar</option>
-                    </select>
-                  </li>
-                  <li>
-                  <select
-                      class="form-select form-select-sm"
-                      aria-label=".form-select-sm example"
-                    >
-                      <option selected>Chọn phim</option>
-                      <option value="1">Nhà bà nữ</option>
-                      <option value="2">Vong linh</option>
-                      <option value="3">Avatar</option>
+                      <option selected>Chọn suất</option>
+                      <option value="1">09:15,2D - Phụ đề</option>
+                      <option value="2">09:15,2D - Phụ đề</option>
+                      <option value="3">09:15,2D - Phụ đề</option>
+                     
                     </select>
                   </li>
                 </ul>
@@ -321,10 +322,10 @@ export default function Carousel_Home() {
                       class="form-select form-select-sm"
                       aria-label=".form-select-sm example"
                     >
-                      <option selected>Chọn phim</option>
-                      <option value="1">Nhà bà nữ</option>
-                      <option value="2">Vong linh</option>
-                      <option value="3">Avatar</option>
+                      <option selected>Chọn rạp</option>
+                      <option value="1">Galaxy Nguyễn Du</option>
+                      <option value="2">Galaxy Nguyễn Du</option>
+                      <option value="3">Galaxy Nguyễn Du</option>
                     </select>
                   </li>
                   <li>
@@ -343,10 +344,10 @@ export default function Carousel_Home() {
                       class="form-select form-select-sm"
                       aria-label=".form-select-sm example"
                     >
-                      <option selected>Chọn phim</option>
-                      <option value="1">Nhà bà nữ</option>
-                      <option value="2">Vong linh</option>
-                      <option value="3">Avatar</option>
+                      <option selected>Chọn ngày</option>
+                      <option value="1">02/02/2023</option>
+                      <option value="2">02/02/2023</option>
+                      <option value="3">02/02/2023</option>
                     </select>
                   </li>
                   <li>
@@ -354,10 +355,10 @@ export default function Carousel_Home() {
                       class="form-select form-select-sm"
                       aria-label=".form-select-sm example"
                     >
-                      <option selected>Chọn phim</option>
-                      <option value="1">Nhà bà nữ</option>
-                      <option value="2">Vong linh</option>
-                      <option value="3">Avatar</option>
+                      <option selected>Chọn suất</option>
+                      <option value="1">09:15,2D - Phụ đề</option>
+                      <option value="2">09:15,2D - Phụ đề</option>
+                      <option value="3">09:15,2D - Phụ đề</option>
                     </select>
                   </li>
                 </ul>
