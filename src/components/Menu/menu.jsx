@@ -7,7 +7,7 @@ export default function Menu() {
       <div className="container">
         <div className="menu-list">
           <ul>
-            <li><NavLink to={''}>Mua vé</NavLink></li>
+            <li><NavLink to={'/buyticket'}>Mua vé</NavLink></li>
             <li>
               <div class="dropdown">
                 <div class="drop">Phim</div>
