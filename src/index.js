@@ -21,6 +21,7 @@ import { store } from "./redux/configStore";
 // Biến để quản lý chuyển hướng trang
 import { createBrowserHistory } from "history";
 import { unstable_HistoryRouter as HistoryRouter } from "react-router-dom";
+import TheaterAndTicket from './pages/TheaterAndTicket/TheaterAndTicket';
 export const history = createBrowserHistory();
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -30,6 +31,7 @@ root.render(
           <Route path="" element={<HomeTemplates />}>
             <Route index path="" element={<Home />}></Route>
             <Route path="buyticket" element={<BuyTicket />}></Route>
+            <Route path="theaterandticket" element={<TheaterAndTicket/>}></Route>
             <Route path='about' element={<div>About</div>}/>
           </Route>
         </Routes>

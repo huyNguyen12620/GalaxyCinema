@@ -1,0 +1,123 @@
+.theaterAndTicket-body h3,h4{
+    color: black;
+}
+
+.theaterAndTicket{
+    padding-top: 50px;
+}
+.theaterAndTicketImg img{
+    width: 100%;
+    height: 10rem;
+}
+.theaterAndTicket-body{
+    padding-top: 50px;
+}
+
+.theaterFilm h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    /* font-size: 700; */
+    color: #43464b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.theaterFilm-select{
+    display: flex;
+}
+.theaterFilm-select select{
+    width: 35%;
+    margin-left: 15px;
+    color: #43464b;
+}
+.theaterFilm-listmovie{
+    display: flex;
+    padding-top: 50px;
+    height: 160px;
+}
+.imgTheaterFilm{
+    width: 15%;
+    margin-right: 15px;
+}
+.imgTheaterFilm img{
+        width: 100%;
+        height: 110%;
+}
+.theaterListMovie-content{
+    display: flex;
+}
+
+.theaterListMovie-content p{
+    color: #43464b;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.theaterListMovie-content1 {
+display: flex;
+}
+
+.theaterListMovie-content1 h4{
+    color: #43464b;
+    font-size: 16px;
+    margin-right: 50px;
+}
+.theaterListMovieBtn{
+    width: 250px;
+}
+.theaterListMovie-content1 button{
+    width: 60px;
+    border: 1px solid #ced0da;
+    background-color: #fff;
+    transition: all 0.5s;
+    margin: 5px 5px;
+}
+
+.theaterListMovie-content1 button:hover{
+    color: #f26b38;
+    border: 1px solid #f26b38;
+    transition: all 0.5s;
+
+}
+
+.theaterTicket h3{
+    color: #43464b;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.theaterTicketImg img{
+    width: 100%;
+    height: 20rem;
+}
+
+.theaterTicket-detail{
+    padding-top: 30px;
+}
+
+.theaterTicket-detail h3{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.theaterTicket-detail p{
+    color: black;
+}
+
+.theaterTicket-detail span{
+    color:  #a0a3a7;
+}
+
+.business-map{
+    width: 80%;
+    
+}
+
+.theaterTicket-detail h2{
+    color: #43464b;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 1.5;
+}
