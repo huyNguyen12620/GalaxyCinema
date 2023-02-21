@@ -1,0 +1,47 @@
+.support-main{
+    padding-top: 50px;
+
+}
+
+.support-btn-title{
+    background:none;
+    border: none;
+    color: #43464b;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.support_button button{
+    width:100%;
+    background-color: #f26b38;
+    color: #fff;
+    text-align: left;
+    font-size:18px ;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px ;
+}
+
+.support-text h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #43464b;
+}
+
+.support-text p{
+    color: #000;
+    font-size: 18px;
+}
+.support_text_btn button{
+    background-color: #f26b38;
+    width: 12%;
+    border-radius: 0;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+}

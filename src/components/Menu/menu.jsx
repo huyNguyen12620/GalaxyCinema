@@ -170,7 +170,7 @@ export default function Menu() {
               </div>
             </li>
             <li><NavLink to={'/theaterandticket'}>Rạp/Giá vé</NavLink></li>
-            <li><NavLink to={''}>Hỗ trợ</NavLink></li>
+            <li><NavLink to={'/support'}>Hỗ trợ</NavLink></li>
             <li><NavLink to={''}>Thành viên</NavLink></li>
           </ul>
         </div>
