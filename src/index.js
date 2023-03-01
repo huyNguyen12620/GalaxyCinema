@@ -13,6 +13,7 @@ import About from "./pages/About/About";
 import HomeTemplates from "./HomeTemplates/HomeTemplates";
 import Header from "./components/Header/Header.jsx";
 import BuyTicket from "./pages/BuyTicket/BuyTicket";
+import Member from './pages/Member/Member.jsx';
 
 // Cấu hình redux
 import { Provider } from "react-redux";
@@ -34,6 +35,9 @@ root.render(
             <Route path="buyticket" element={<BuyTicket />}></Route>
             <Route path="theaterandticket" element={<TheaterAndTicket/>}></Route>
             <Route path="support" element={<Support/>}></Route>
+            <Route path="member" element={<Member/>}></Route>
+
+
             <Route path='about' element={<div>About</div>}/>
           </Route>
         </Routes>
