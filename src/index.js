@@ -7,13 +7,13 @@ import App from "./App";
 
 // Cấu hình react-router-dom
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Contact from "./pages/Contact/Contact";
-import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import HomeTemplates from "./HomeTemplates/HomeTemplates";
-import Header from "./components/Header/Header.jsx";
-import BuyTicket from "./pages/BuyTicket/BuyTicket";
-import Member from './pages/Member/Member.jsx';
+
+import Home from "./pages/Home";
+
+import HomeTemplates from "./HomeTemplates";
+
+import BuyTicket from "./pages/BuyTicket";
+import Member from './pages/Member/index.jsx';
 
 // Cấu hình redux
 import { Provider } from "react-redux";
@@ -22,8 +22,8 @@ import { store } from "./redux/configStore";
 // Biến để quản lý chuyển hướng trang
 import { createBrowserHistory } from "history";
 import { unstable_HistoryRouter as HistoryRouter } from "react-router-dom";
-import TheaterAndTicket from './pages/TheaterAndTicket/TheaterAndTicket';
-import Support from "./pages/Support/Support";
+import TheaterAndTicket from './pages/TheaterAndTicket';
+import Support from "./pages/Support";
 export const history = createBrowserHistory();
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -36,8 +36,6 @@ root.render(
             <Route path="theaterandticket" element={<TheaterAndTicket/>}></Route>
             <Route path="support" element={<Support/>}></Route>
             <Route path="member" element={<Member/>}></Route>
-
-
             <Route path='about' element={<div>About</div>}/>
           </Route>
         </Routes>

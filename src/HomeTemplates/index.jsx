@@ -1,6 +1,6 @@
-import Footer from 'components/Footer/Footer';
-import Header from 'components/Header/Header';
-import Menu from 'components/Menu/Menu';
+import Footer from 'components/Footer';
+import Header from 'components/Header';
+import Menu from 'components/Menu';
 import React from 'react'
 import { Outlet } from "react-router-dom";
 
