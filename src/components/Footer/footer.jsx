@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-export default function footer() {
+export default function Footer() {
   return (
     <div className='footer-cinema'>
         <div className="container">
